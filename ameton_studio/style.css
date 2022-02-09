@@ -1,14 +1,14 @@
 @font-face {
    font-family: "MuseoBold";
-   src: url(/assets/fonts/MUSEOSANSCYRL-900.TTF);
+   src: url(assets/fonts/MUSEOSANSCYRL-900.TTF);
 }
 @font-face {
    font-family: "Museo700";
-   src: url(/assets/fonts/MUSEOSANSCYRL-700.TTF);
+   src: url(assets/fonts/MUSEOSANSCYRL-700.TTF);
 }
 @font-face {
    font-family: "MuseoRegular";
-   src: url(/assets/fonts/MUSEOSANSCYRL-300.TTF);
+   src: url(assets/fonts/MUSEOSANSCYRL-300.TTF);
 }
 
 html {
@@ -26,7 +26,7 @@ main {
 .support {
    width: 1200px;
    height: 306px;
-   background-image: url(/assets/png/bg_1.png);
+   background-image: url(./assets/png/bg_1.png);
    background-repeat: no-repeat;
    background-size: 1200px;
    margin: auto;

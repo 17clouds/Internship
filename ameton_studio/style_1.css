@@ -1,14 +1,14 @@
 @font-face {
    font-family: "MuseoBold";
-   src: url(/assets/fonts/MUSEOSANSCYRL-900.TTF);
+   src: url(assets/fonts/MUSEOSANSCYRL-900.TTF);
 }
 @font-face {
    font-family: "Museo700";
-   src: url(/assets/fonts/MUSEOSANSCYRL-700.TTF);
+   src: url(assets/fonts/MUSEOSANSCYRL-700.TTF);
 }
 @font-face {
    font-family: "MuseoRegular";
-   src: url(/assets/fonts/MUSEOSANSCYRL-300.TTF);
+   src: url(assets/fonts/MUSEOSANSCYRL-300.TTF);
 }
 
 html {
@@ -75,9 +75,6 @@ main {
    background: #36ba5f;
    border-radius: 12px;
 }
-/* .chat_2 p {
-   margin-right: 57px;
-} */
 .chat_2 img {
    margin-right: 9px;
 }
