@@ -26,7 +26,7 @@ main {
 .support {
    width: 1200px;
    height: 306px;
-   background-image: url(./assets/png/bg_1.png);
+   background-image: url(assets/png/bg_1.png);
    background-repeat: no-repeat;
    background-size: 1200px;
    margin: auto;
