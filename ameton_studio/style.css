@@ -1,0 +1,298 @@
+@font-face {
+   font-family: "MuseoBold";
+   src: url(/assets/fonts/MUSEOSANSCYRL-900.TTF);
+}
+@font-face {
+   font-family: "Museo700";
+   src: url(/assets/fonts/MUSEOSANSCYRL-700.TTF);
+}
+@font-face {
+   font-family: "MuseoRegular";
+   src: url(/assets/fonts/MUSEOSANSCYRL-300.TTF);
+}
+
+html {
+   height: 1526px;
+}
+main {
+   margin: 0px auto;
+   list-style: none;
+}
+
+/* Support-section ==================*/
+.support-section {
+   margin-top: 40px;
+}
+.support {
+   width: 1200px;
+   height: 306px;
+   background-image: url(/assets/png/bg_1.png);
+   background-repeat: no-repeat;
+   background-size: 1200px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 40px;
+}
+
+.support_title {
+   font-family: "MuseoBold";
+   font-size: 60px;
+   line-height: 70px;
+   color: white;
+   padding-top: 40px;
+   padding-bottom: 6px;
+   margin: 0px 334px;
+}
+.support_text {
+   font-family: "MuseoRegular";
+   font-size: 17px;
+   line-height: 24px;
+   word-spacing: 1px;
+   color: white;
+   width: 535px;
+   text-align: center;
+   margin: 0px auto;
+}
+
+/* Support-buttons ==================*/
+
+.support_btns {
+   display: flex;
+   flex-direction: row;
+   padding-top: 40px;
+}
+
+.support_btns button {
+   background-color: white;
+   width: 160px;
+   height: 48px;
+   border: 0;
+   border-radius: 12px;
+   padding: 0px;
+   margin: 0px 4px;
+   font-family: "Museo700";
+   font-size: 15px;
+   line-height: 18px;
+   align-content: center;
+}
+.support_btns img {
+   padding-right: 8px;
+}
+
+/* Contancts-section ==================*/
+
+.contacts-section {
+   margin-top: 82px;
+}
+.contacts {
+   background: #ffffff;
+   box-shadow: 0px 20px 60px rgba(26, 26, 26, 0.05);
+   border-radius: 40px;
+   width: 996px;
+   height: 166px;
+   margin: 0 auto;
+}
+.contacts_content {
+   display: flex;
+   flex-direction: row;
+   margin: 0px auto;
+   align-items: center;
+}
+.contacts_text_block {
+   padding: 42px 159px 42px 40px;
+}
+.contacts_title {
+   font-family: "Museo700";
+   font-weight: 100;
+   font-size: 15px;
+   line-height: 18px;
+   margin: 0px;
+   padding-bottom: 16px;
+}
+.contacts_text {
+   font-family: "Museo700";
+   font-size: 40px;
+   line-height: 48px;
+   margin: 0px;
+   letter-spacing: 0px;
+}
+.contacts_btns {
+   display: flex;
+}
+.contacts_btns button {
+   border: 0;
+   border-radius: 13.3311px;
+   align-content: center;
+   width: 56px;
+   height: 56px;
+   background-color: #f9f9f9;
+   margin-right: 14px;
+}
+
+/* Questions-section ==================*/
+.questions-section {
+   margin-top: 80px;
+}
+.question_title {
+   font-family: "Museo700";
+   font-size: 40px;
+   line-height: 48px;
+   text-align: center;
+   margin-bottom: 32px;
+}
+.questions_carousel {
+   margin-left: px;
+   width: 1200px;
+   position: relative;
+}
+.question_title p {
+   margin: 0 auto;
+}
+.questions {
+   overflow: hidden;
+   background-color: transparent;
+   width: 1250px;
+   height: 260px;
+   align-content: center;
+   margin: 0px auto;
+}
+.questions_tiles img {
+   width: 104px;
+   height: 162px;
+}
+.questions_tiles {
+   width: 2425px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 0px;
+   margin: 0px;
+   transition-duration: 1s;
+}
+.tile {
+   list-style: none;
+   position: relative;
+   width: 282px;
+   height: 160px;
+   background: #ffffff;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
+   border-radius: 16px;
+}
+.tiles_title {
+   font-family: "Museo700";
+   font-size: 20px;
+   line-height: 24px;
+   margin: 16px 0px 8px 16px;
+}
+.tiles_text {
+   font-family: "MuseoRegular";
+   font-size: 15px;
+   line-height: 21px;
+   color: gray;
+   margin: 0px 0px 0px 16px;
+   word-spacing: 0.65px;
+}
+.first_tile {
+   display: flex;
+}
+.second_tile > .tiles_text {
+   width: 250px;
+}
+.third_tile {
+   display: flex;
+}
+.third_tile_text > .tiles_text {
+   width: 130px;
+}
+.questions_btn {
+   position: absolute;
+   margin-right: 0px;
+   border: 0;
+   border-radius: 50%;
+   width: 44px;
+   height: 44px;
+   background: #ffffff;
+   box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.09);
+   position: absolute;
+   right: 0px;
+   top: 60px;
+}
+.btn_prev {
+   transform: rotate(180deg);
+   position: absolute;
+   left: 0px;
+   top: 60px;
+}
+.questions_btn:hover {
+   cursor: pointer;
+}
+.questions_btn img {
+   width: 6.59px;
+   height: 11.17px;
+}
+
+li :hover {
+   cursor: pointer;
+}
+a:active,
+a:hover,
+a {
+   text-decoration: none;
+   color: black;
+}
+/* Reference-section ==================*/
+.reference {
+   margin: 0px auto;
+   width: 996px;
+   align-self: center;
+}
+.reference_title {
+   font-family: "Museo700";
+   font-size: 40px;
+   line-height: 48px;
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 32px;
+}
+.reference_title p {
+   margin: 0px 10px 0px 0px;
+}
+.tiles_title_ref {
+   margin: 20px auto 0px 24px;
+}
+.tiles_text_ref {
+   margin-top: 4px;
+   margin-left: 24px;
+   font-size: 13px;
+   line-height: 18.2px;
+   word-spacing: 0.8px;
+}
+.reference_tiles {
+   display: flex;
+   flex-direction: column;
+   align-items: space-between;
+}
+.ref_tile {
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   background: #ffffff;
+   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+   border-radius: 16px;
+   margin-bottom: 12px;
+}
+.tile_ref_content {
+   width: 400px;
+}
+.first_tile_ref,
+.third_tile_ref {
+   height: 64px;
+}
+.second_tile_ref,
+.fourth_tile_ref {
+   height: 104px;
+}
+.ref_arrow {
+   margin-right: 24.42px;
+}

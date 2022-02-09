@@ -1,0 +1,78 @@
+@media screen and (max-width: 480px) {
+   /* html {
+      width: 480px;
+   } */
+
+   /* Support-section ==================*/
+
+   .support-section {
+      margin-top: 20px;
+   }
+   .support {
+      width: 460px;
+      height: 530px;
+      background-color: #93bbea;
+   }
+   .support_title {
+      text-align: center;
+   }
+   .support_text {
+      text-align: center;
+      width: 400px;
+   }
+
+   /* Support-buttons ==================*/
+
+   .support_btns {
+      padding-top: 15px;
+      flex-direction: column;
+      row-gap: 15px;
+   }
+
+   /* Contancts-section ==================*/
+
+   .contacts-section {
+      margin-top: 40px;
+   }
+   .contacts {
+      width: 460px;
+      height: 400px;
+      align-items: center;
+   }
+   .contacts_content {
+      flex-direction: column;
+   }
+   .contacts_text_block {
+      padding: 0;
+   }
+   .contacts_title {
+      text-align: center;
+      padding-top: 20px;
+   }
+   .contacts_btns {
+      margin-top: 20px;
+      width: 200px;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+   }
+   .contacts_btns button {
+      width: 70px;
+      height: 70px;
+   }
+
+   /* Questions-section ==================*/
+
+   .questions {
+      width: 480px;
+      height: 300px;
+   }
+   .questions_carousel {
+      width: 460px;
+   }
+   /* Reference-section ==================*/
+
+   .reference {
+      width: 460px;
+   }
+}

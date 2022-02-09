@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+   html {
+      /* overflow: hidden; */
+      height: 750px;
+   }
+
+   main {
+      margin: 0 auto;
+   }
+   .article_title {
+      justify-content: center;
+   }
+   .second_article_title {
+      text-align: center;
+   }
+   .article_text {
+      width: 460px;
+      height: 560px;
+      text-align: center;
+   }
+   .article_btns {
+      padding-top: 10px;
+      margin: 0 auto;
+   }
+}
