@@ -30,6 +30,8 @@ main {
 }
 .article_title img {
    margin-left: 16px;
+   height: 19.92px;
+   align-self: center;
 }
 .article_text {
    margin-top: 16px;
